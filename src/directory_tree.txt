@@ -1,0 +1,57 @@
+Folder PATH listing for volume V1709R
+Volume serial number is 40EA-E969
+R:.
+|   directory_tree.txt
+|   
++---app
+|   |   favicon.ico
+|   |   globals.css
+|   |   layout.js
+|   |   page.js
+|   |   page.module.css
+|   |   
+|   +---about
+|   |       page.js
+|   |       page.module.css
+|   |       
+|   +---holidays
+|   |   |   page.js
+|   |   |   page.module.css
+|   |   |   
+|   |   \---[slug]
+|   |           page.js
+|   |           page.module.css
+|   |           
+|   \---manifest
+|           page.js
+|           page.module.css
+|           
++---components
+|   |   Header.js
+|   |   HeroLayout.js
+|   |   icons.js
+|   |   ImageCarousel.js
+|   |   Navbar.js
+|   |   
+|   \---HolidayComponents
+|           HolidayDetailClient.js
+|           HolidayHamburger.js
+|           StickyPhotoGrid.js
+|           
++---mockData
+|   |   aboutMock.js
+|   |   mock.js
+|   |   
+|   \---holidays
+|       |   holidayIndex.js
+|       |   
+|       \---kyoto-japan
+|               kyotoJapan.js
+|               
+\---styles
+    |   header.css
+    |   hero.css
+    |   
+    \---Holiday
+            holidayDetailClient.css
+            

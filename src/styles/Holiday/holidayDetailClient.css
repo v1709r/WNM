@@ -1,0 +1,111 @@
+/* Navigation Btn */
+
+.hamburgerBtn {
+  position: fixed;
+  left: 0;
+  top: 40%;
+  z-index: 1000;
+
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+}
+
+.hamburgerBtn span {
+  height: 2px;
+  width: 24px;
+  background: #000;
+  display: block;
+}
+
+/* FullScreen Navigation panel */
+
+.hhNav {
+  position: fixed;
+  inset: 0;
+  background: #fff;
+  z-index: 999;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.hhNav button {
+  font-size: 1.25rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/*  */
+
+.holidaylayout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--space-5);
+}
+
+.articleSection p {
+  text-align: justify;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.refSection li {
+  padding-bottom: var(--space-5);
+}
+
+.referenceLinks {
+  text-decoration: none;
+  color: black;
+}
+
+.photo-grid {
+  position: sticky;
+  top: 30%;
+  align-self: start;
+}
+
+.photo-grid ul {
+  list-style: none;
+
+  padding: 0;
+
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  place-items: center;
+
+  gap: 1px;
+}
+
+.photo-grid button {
+  border: none;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.photo-grid img {
+  width: 120px;
+  height: 120px;
+  display: block;
+}
+
+.activeImage {
+  width: 50vw;
+  height: 50vh;
+  object-fit: contain;
+  padding: 10px;
+  background: #000;
+}
